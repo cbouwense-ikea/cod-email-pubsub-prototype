@@ -1,0 +1,24 @@
+{
+  "name": "cod-email-pubsub-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbouwense-ikea/cod-email-pubsub-prototype.git"
+  },
+  "author": "Christian Bouwense",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbouwense-ikea/cod-email-pubsub-prototype/issues"
+  },
+  "homepage": "https://github.com/cbouwense-ikea/cod-email-pubsub-prototype#readme",
+  "dependencies": {
+    "kafkajs": "^1.15.0"
+  },
+  "type": "module"
+}
