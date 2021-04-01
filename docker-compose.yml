@@ -18,3 +18,7 @@ services:
       KAFKA_CREATE_TOPICS: "topic-test:1:1"
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+  express-app:
+    image: christian.bouwense/cod-email-pubsub-prototype
+    ports:
+      - "3000:3000"
